@@ -9,20 +9,20 @@ player_name = input('Your name: ')
 
 pygame.init()
 
-fire_images_path = r"C:\Users\Hajdu Sándor\PycharmProjects\pythonProject6\Images\Fire"
-player_images_idl_path = r"C:\Users\Hajdu Sándor\PycharmProjects\pythonProject6\Images\character\idl"
-player_images_walk_path = r"C:\Users\Hajdu Sándor\PycharmProjects\pythonProject6\Images\character\walk"
-player_images_jump_path = r"C:\Users\Hajdu Sándor\PycharmProjects\pythonProject6\Images\character\jump"
-player_images_slide_path = r"C:\Users\Hajdu Sándor\PycharmProjects\pythonProject6\Images\character\slide"
-player_images_dead_path = r"C:\Users\Hajdu Sándor\PycharmProjects\pythonProject6\Images\character\dead"
-player_hit_sound = pygame.mixer.Sound(r"C:\Users\Hajdu Sándor\PycharmProjects\pythonProject6\Sounds\Socapex - big punch.wav")
+fire_images_path = r".\Images\Fire"
+player_images_idl_path = r".\Images\character\idl"
+player_images_walk_path = r".\Images\character\walk"
+player_images_jump_path = r".\Images\character\jump"
+player_images_slide_path = r".\Images\character\slide"
+player_images_dead_path = r".\Images\character\dead"
+player_hit_sound = pygame.mixer.Sound(r".\Sounds\Socapex - big punch.wav")
 
-bg_images_path = r"C:\Users\Hajdu Sándor\PycharmProjects\pythonProject6\Images\backgrounds"
+bg_images_path = r".\Images\backgrounds"
 
-enemy_images_run_path = r"C:\Users\Hajdu Sándor\PycharmProjects\pythonProject6\Images\enemy\run"
-enemy_images_attack_path = r"C:\Users\Hajdu Sándor\PycharmProjects\pythonProject6\Images\enemy\attack"
-enemy_images_dead_path = r"C:\Users\Hajdu Sándor\PycharmProjects\pythonProject6\Images\enemy\dead"
-enemy_hit_sound = pygame.mixer.Sound(r"C:\Users\Hajdu Sándor\PycharmProjects\pythonProject6\Sounds\Socapex - new_hits.wav")
+enemy_images_run_path = r".\Images\enemy\run"
+enemy_images_attack_path = r".\Images\enemy\attack"
+enemy_images_dead_path = r".\Images\enemy\dead"
+enemy_hit_sound = pygame.mixer.Sound(r".\Sounds\Socapex - new_hits.wav")
 
 enemy_hit_played = False
 player_hit_played = False
@@ -226,7 +226,7 @@ while run:
         if keys[pygame.K_ESCAPE]:
             menu = True
             pygame.mixer.stop()
-            pygame.mixer.music.load(r"C:\Users\Hajdu Sándor\PycharmProjects\pythonProject6\Sounds\menu_music.wav")
+            pygame.mixer.music.load(r".\Sounds\menu_music.wav")
             pygame.mixer.music.play()
             music_started = False
 

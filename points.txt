@@ -4,3 +4,21 @@ x : 0	Enemy:0
 y 2024-04-16	16:01:10
 y : 0	Enemy:0
 
+Satya 2026-04-24	16:32:13
+Satya : 3	Enemy:2
+
+satya 2026-04-24	16:35:00
+satya : 3	Enemy:2
+
+Satya& "C:/Users/Hajdu Sándor/AppData/Local/Programs/Python/Python313/python.exe" "c:/Users/Hajdu Sándor/Documents/2D_Game/2D-Game/main.py" 2026-04-24	16:43:32
+Satya& "C:/Users/Hajdu Sándor/AppData/Local/Programs/Python/Python313/python.exe" "c:/Users/Hajdu Sándor/Documents/2D_Game/2D-Game/main.py" : 0	Enemy:0
+
+Satya 2026-04-24	16:44:24
+Satya : 2	Enemy:1
+
+Satya 2026-04-24	16:51:09
+Satya : 0	Enemy:0
+
+Satya 2026-04-24	16:54:59
+Satya : 0	Enemy:0
+
