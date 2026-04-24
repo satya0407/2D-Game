@@ -11,6 +11,7 @@ version python 3.10 or newer
 pip install pygame
 ## Usage:
 Run the game: python main.py
+
 Controls:
 - Arrow keys = Move
 - SPACE = Slide
